@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - MystIQ Escape</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+    <div class="logo">
+        <img src="./img/logo.png" alt="MystIQ Escape logo">
+    </div>
+
+   <div class="nav-item">
+    <a href="#" data-menu="demos">demos <span>▼</span></a>
+    <div class="dropdown">
+        <a href="index.html">Demo 1</a>
+        <a href="demo2.html">Demo 2</a>
+    </div>
+</div>
+        <div class="nav-item">
+            <a href="#" data-menu="about">about <span>▼</span></a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <a href="our story.html">Our Story</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="faq.html">FAQ</a>
+                <a href="testimonials.html">Testimonials</a>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#" data-menu="rooms">rooms <span>▼</span></a>
+            <div class="dropdown">
+                <a href="rooms.html">Room 1</a>
+                <a href="#room2">Room 2</a>
+                <a href="room 3.html">Room 3</a>
+            </div>
+        </div>
+        <a href="news.html" data-menu="news">news</a>
+        <div class="nav-item">
+            <a href="#" data-menu="offers">offers <span>▼</span></a>
+            <div class="dropdown">
+                <a href="early bird.html">Early Bird</a>
+                <a href="group discount.html">Group Discount</a>
+                <a href="member special.html">Member Special</a>
+            </div>
+        </div>
+        <a href="contact us.html" data-menu="contact">contact us</a>
+    </nav>
+
+    <div class="right-section">
+        <button class="login-btn" onclick="openLogin()">Login</button>
+    </div>
+
+</header>
+<!-- HERO -->
+<section class="about-hero">
+    <div class="overlay"></div>
+    <div class="hero-text">
+        <h1>About Us</h1>
+        <p>We design experiences, not just games</p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section">
+    <div class="about-section-shell">
+        <div class="about-section-copy">
+            <p class="about-kicker">Who We Are</p>
+            <h2>We Build Escape Worlds That Feel Cinematic</h2>
+            <p>
+                MystIQ Escape is a creative escape room design company that builds immersive puzzle experiences.
+                We combine storytelling, design, and technology to create unforgettable adventures.
+            </p>
+        </div>
+        <div class="about-highlight-card">
+            <span class="about-highlight-label">MystIQ Method</span>
+            <h3>Story, tension, and interaction all move together.</h3>
+            <p>We design rooms that do more than entertain. They pull players into a complete mission with atmosphere, logic, and momentum.</p>
+        </div>
+    </div>
+</section>
+
+<!-- MISSION -->
+<section class="about-section">
+    <div class="about-section-shell reverse">
+        <div class="about-highlight-stats">
+            <div class="about-stat-card">
+                <strong>01</strong>
+                <span>Immersive world building</span>
+            </div>
+            <div class="about-stat-card">
+                <strong>02</strong>
+                <span>Team-first puzzle design</span>
+            </div>
+            <div class="about-stat-card">
+                <strong>03</strong>
+                <span>Memorable final reveals</span>
+            </div>
+        </div>
+        <div class="about-section-copy">
+            <p class="about-kicker">Our Mission</p>
+            <h2>To Turn Every Room Into A Shared Victory</h2>
+            <p>
+                To challenge minds, inspire teamwork, and deliver thrilling escape experiences
+                that push players to think beyond limits.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="about-features">
+    <div class="about-features-intro">
+        <p class="about-kicker">Why Players Choose Us</p>
+        <h2>Built To Feel Like A Real Mission</h2>
+        <p class="about-features-copy">
+            Every room is designed with tension, atmosphere, and smart interaction so players feel
+            fully inside the story from the first clue to the final escape.
+        </p>
+    </div>
+
+    <div class="about-features-grid">
+        <article class="about-feature-card featured-card">
+            <span class="feature-tag">Signature Experience</span>
+            <h3>Creative Design</h3>
+            <p>Original puzzle structures, cinematic themes, and layered room logic that stay memorable.</p>
+            <div class="feature-meta">
+                <span>Story First</span>
+                <span>Custom Themes</span>
+            </div>
+        </article>
+
+        <article class="about-feature-card">
+            <span class="feature-count">01</span>
+            <h3>Immersive Gameplay</h3>
+            <p>Lighting, sound, and clue placement work together to make every minute feel intense.</p>
+        </article>
+
+        <article class="about-feature-card">
+            <span class="feature-count">02</span>
+            <h3>Team Experience</h3>
+            <p>Balanced challenges encourage communication, fast thinking, and shared problem solving.</p>
+        </article>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Ready to Escape?</h2>
+    <button class="btn" onclick="window.location.href='rooms.html'">Explore Rooms</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <a href="index.html" class="footer-logo">
+                <img src="./img/logo.png" alt="MystIQ Escape logo">
+            </a>
+            <h2>Are you up for<br>the cool<br>challenge?</h2>
+            <div class="social-links">
+                <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Demos</h3>
+            <ul>
+                <li><a href="demo1.html">Demo 1</a></li>
+                <li><a href="demo2.html">Demo 2</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Rooms</h3>
+            <ul>
+                <li><a href="rooms.html">Room 1</a></li>
+                <li><a href="#room2">Room 2</a></li>
+                <li><a href="room 3.html">Room 3</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>copyright © 2026 MystIQ Escape. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+

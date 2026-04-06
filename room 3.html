@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Secret Lab - MystIQ Escape</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+    <div class="logo">
+        <a href="index.html" class="logo-link">
+            <img src="./img/logo.png" alt="MystIQ Escape logo">
+        </a>
+    </div>
+
+    <div class="nav-item">
+    <a href="#" data-menu="demos">demos <span>▼</span></a>
+    <div class="dropdown">
+        <a href="index.html">Demo 1</a>
+        <a href="demo2.html">Demo 2</a>
+    </div>
+</div>
+        <div class="nav-item">
+            <a href="#" data-menu="about">about <span>▼</span></a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <a href="our story.html">Our Story</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="faq.html">FAQ</a>
+                <a href="testimonials.html">Testimonials</a>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#" data-menu="rooms">rooms <span>▼</span></a>
+            <div class="dropdown">
+                <a href="room 1.html">Room 1</a>
+                <a href="room 2.html">Room 2</a>
+                <a href="room 3.html">Room 3</a>
+            </div>
+        </div>
+        <a href="news.html" data-menu="news">news</a>
+        <div class="nav-item">
+            <a href="#" data-menu="offers">offers <span>▼</span></a>
+            <div class="dropdown">
+                <a href="early bird.html">Early Bird</a>
+                <a href="group discount.html">Group Discount</a>
+                <a href="member special.html">Member Special</a>
+            </div>
+        </div>
+        <a href="contact us.html" data-menu="contact">contact us</a>
+    </nav>
+
+    <div class="right-section">
+        <button class="login-btn" onclick="openLogin()">Login</button>
+    </div>
+
+</header>
+
+<!-- HERO -->
+<section class="room-hero lab">
+    <div class="overlay"></div>
+    <div class="hero-text room-hero-content">
+        <p class="eyebrow">Room 3</p>
+        <h1>Secret Lab</h1>
+        <p>Race through a failing research facility and stop the experiment before the whole lab locks down.</p>
+    </div>
+</section>
+
+<!-- ROOM DETAILS -->
+<section class="room-details">
+    <div class="room-details-shell">
+        <div class="room-overview-card">
+            <p class="about-kicker">Mission Brief</p>
+            <h2>Decode the systems before the lab seals itself forever.</h2>
+            <p>
+                You are inside a secret laboratory where a dangerous experiment has gone wrong.
+                Solve science-driven puzzles, unlock digital systems, and uncover the truth before the emergency lockdown begins.
+            </p>
+            <div class="room-tags">
+                <span>Science Theme</span>
+                <span>Hard Difficulty</span>
+                <span>Tech Puzzles</span>
+            </div>
+        </div>
+
+        <div class="room-stats-grid">
+            <div class="room-stat-card">
+                <strong>75</strong>
+                <span>Minutes to escape</span>
+            </div>
+            <div class="room-stat-card">
+                <strong>2-4</strong>
+                <span>Players recommended</span>
+            </div>
+            <div class="room-stat-card">
+                <strong>Hard</strong>
+                <span>Difficulty level</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section class="room-highlights">
+    <div class="room-highlights-intro">
+        <p class="about-kicker">Why This Room Works</p>
+        <h2>A High-Tech Escape Built Around Logic, Systems, And Fast Decision Making</h2>
+    </div>
+
+    <div class="room-highlight-grid">
+        <article class="room-highlight-card">
+            <i class="fas fa-flask"></i>
+            <h3>Science Puzzles</h3>
+            <p>Expect puzzle chains built around experiment logic, pattern recognition, and smart sequencing.</p>
+        </article>
+        <article class="room-highlight-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Digital Codes</h3>
+            <p>Crack systems, unlock secure terminals, and piece together the lab's hidden data trail.</p>
+        </article>
+        <article class="room-highlight-card">
+            <i class="fas fa-bolt"></i>
+            <h3>Interactive Systems</h3>
+            <p>Each solved mechanism opens the next stage and builds pressure toward the final shutdown.</p>
+        </article>
+    </div>
+</section>
+
+<!-- PREVIEW -->
+<section class="room-gallery">
+    <div class="room-gallery-header">
+        <p class="about-kicker">Room Preview</p>
+        <h2>See The Lab In Motion Before The Alarm Starts</h2>
+    </div>
+
+    <div class="room-preview-layout">
+        <div class="room-video-card room-video-card-landscape">
+            <video class="room-preview-video room-preview-video-landscape" controls playsinline preload="metadata" poster="./img/room3.jpg">
+                <source src="./img/lab-preview.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <aside class="room-preview-copy">
+            <span class="room-preview-label">What Players Do</span>
+            <h3>Decode systems, unlock terminals, and stop the experiment before total shutdown.</h3>
+            <p>This preview area is ready for a short cinematic clip that shows glowing lab panels, alert signals, digital codes, and the urgency of a collapsing experiment.</p>
+            <div class="room-preview-points">
+                <span>Crack digital codes</span>
+                <span>Control lab systems</span>
+                <span>Stop the experiment</span>
+            </div>
+            <p class="room-preview-note">Add your video as `img/lab-preview.mp4` and it will play here with audio.</p>
+        </aside>
+    </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking">
+    <div class="booking-shell">
+        <div class="booking-copy">
+            <p class="about-kicker">Can You Stop The Experiment?</p>
+            <h2>Book This Room If Your Team Loves High-Pressure Logic</h2>
+            <p>Ideal for puzzle-focused players who enjoy deeper challenge, tech themes, and a sharper sense of urgency.</p>
+        </div>
+        <button class="btn" onclick="openBookingModal('Secret Lab')">Book Now</button>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <a href="index.html" class="footer-logo">
+                <img src="./img/logo.png" alt="MystIQ Escape logo">
+            </a>
+            <h2>Are you up for<br>the cool<br>challenge?</h2>
+            <div class="social-links">
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" class="social-icon facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" class="social-icon instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/" target="_blank" rel="noreferrer" class="social-icon twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Demos</h3>
+            <ul>
+                <li><a href="demo1.html">Demo 1</a></li>
+                <li><a href="demo2.html">Demo 2</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Rooms</h3>
+            <ul>
+                <li><a href="room 1.html">Room 1</a></li>
+                <li><a href="room 2.html">Room 2</a></li>
+                <li><a href="room 3.html">Room 3</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>copyright © 2026 MystIQ Escape. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+

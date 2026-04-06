@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MystIQ Escape - Demo 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        <img src="./img/logo.png" alt="MystIQ Escape logo">
+    </div>
+
+    <nav class="nav">
+    
+        <div class="nav-item">
+    <a href="#" data-menu="demos">demos <span>▼</span></a>
+    <div class="dropdown">
+        <a href="index.html">Demo 1</a>
+        <a href="demo2.html">Demo 2</a>
+    </div>
+</div>
+        <div class="nav-item">
+            <a href="#about" data-menu="about">about <span>▼</span></a>
+            <div class="dropdown">
+                <a href="about.html">About Us</a>
+                <a href="our story.html">Our Story</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="faq.html">FAQ</a>
+                <a href="testimonials.html">Testimonials</a>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#rooms" data-menu="rooms">rooms <span>▼</span></a>
+            <div class="dropdown">
+                <a href="rooms.html">Room 1</a>
+                <a href="#room2">Room 2</a>
+                <a href="room 3.html">Room 3</a>
+            </div>
+        </div>
+        <a href="news.html" data-menu="news">news</a>
+        <div class="nav-item">
+            <a href="#offers" data-menu="offers">offers <span>▼</span></a>
+            <div class="dropdown">
+                <a href="early bird.html">Early Bird</a>
+                <a href="group discount.html">Group Discount</a>
+                <a href="member special.html">Member Special</a>
+            </div>
+        </div>
+        <a href="contact us.html" data-menu="contact">contact us</a>
+    </nav>
+
+    <div class="right-section">
+        <button class="login-btn" onclick="openLogin()">Login</button>
+    </div>
+
+</header>
+
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="overlay"></div>
+
+    <div class="room left">
+        <div class="room-key"><i class="fas fa-key"></i></div>
+        <h2>Hospital Room</h2>
+        <p>Fun, safe, and engaging experience. Your next great adventure awaits!</p>
+    </div>
+
+    <div class="room left-bottom">
+        <div class="room-key"><i class="fas fa-key"></i></div>
+        <h2>Fantasy Room</h2>
+        <p>Are you up for the challenge? Join us and find out.</p>
+    </div>
+
+    <div class="room right-top">
+        <div class="room-key"><i class="fas fa-key"></i></div>
+        <h2>Detective Room</h2>
+        <p>It's time to put your skills to the test. Real-life puzzle experience.</p>
+    </div>
+
+    <div class="room right-bottom">
+        <div class="room-key"><i class="fas fa-key"></i></div>
+        <h2>Dark Room</h2>
+        <p>Thrilling adventure waiting to be unlocked. Heart-pounding experience.</p>
+    </div>
+
+    <div class="hero-text">
+        <h1>CAN YOU ESCAPE?</h1>
+        <p>It's time to put your problem-solving skills to the test. Are you up for the challenge? Join us and find out.</p>
+    </div>
+</section>
+
+<section class="page-gallery">
+    <div class="page-gallery-header">
+        <p class="eyebrow">Demo 1 Visuals</p>
+        <h2>See the world before you enter</h2>
+    </div>
+    <div class="page-gallery-grid">
+        <figure class="gallery-tile wide">
+            <img src="./img/demo1-gallery-main.jpg" alt="Demo 1 main hallway">
+        </figure>
+        <figure class="gallery-tile">
+            <img src="./img/demo1-gallery-side.jpg" alt="Demo 1 side preview">
+        </figure>
+        <figure class="gallery-tile">
+            <img src="./img/demo1-gallery-detail.jpg" alt="Alternate room preview">
+        </figure>
+    </div>
+</section>
+
+<section class="features demo-features">
+    <div class="demo-features-intro">
+        <p class="eyebrow">Inside The Challenge</p>
+        <h2>Game Features</h2>
+        <p class="demo-features-copy">
+            Every escape session mixes pressure, discovery, and teamwork so the whole section feels
+            more like a mission briefing than a simple icon row.
+        </p>
+    </div>
+
+    <div class="demo-feature-grid">
+        <article class="demo-feature-card demo-feature-card-main">
+            <div class="demo-feature-icon">
+                <i class="fas fa-puzzle-piece"></i>
+            </div>
+            <span class="demo-feature-label">Core Challenge</span>
+            <h3>Puzzles</h3>
+            <p>Layered clues and smart mechanisms keep players thinking from start to finish.</p>
+        </article>
+
+        <article class="demo-feature-card">
+            <div class="demo-feature-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <span class="demo-feature-number">01</span>
+            <h3>Timer</h3>
+            <p>The countdown builds pressure and makes every decision feel important.</p>
+        </article>
+
+        <article class="demo-feature-card">
+            <div class="demo-feature-icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <span class="demo-feature-number">02</span>
+            <h3>Hidden Clues</h3>
+            <p>Small details, secret hints, environmental cues reward careful observation.</p>
+        </article>
+    </div>
+</section>
+
+<section class="rooms">
+    <h2>Other Rooms</h2>
+    <div class="room-cards">
+        <div class="room room-card-visual">
+            <img src="./img/prison-escape-room.jpg" alt="Prison Escape room">
+            <span>Prison Escape</span>
+        </div>
+        <div class="room room-card-visual">
+            <img src="./img/haunted-house-room.jpg" alt="Haunted House room">
+            <span>Haunted House</span>
+        </div>
+        <div class="room room-card-visual">
+            <img src="./img/detective-room.jpg" alt="Detective Room">
+            <span>Detective Room</span>
+        </div>
+    </div>
+</section>
+<section class="experience-bar">
+    
+    <div class="exp-card">
+    <div class="exp-icon"><i class="fas fa-clock"></i></div>
+    <h3>60</h3>
+    <p class="main-text">Minutes to Escape</p>
+    <span class="sub-text">Solve clues before time runs out</span>
+</div>
+
+<div class="exp-card">
+    <div class="exp-icon"><i class="fas fa-users"></i></div>
+    <h3>2–6</h3>
+    <p class="main-text">Players per Team</p>
+    <span class="sub-text">Perfect for friends & groups</span>
+</div>
+
+<div class="exp-card">
+    <div class="exp-icon"><i class="fas fa-bolt"></i></div>
+    <h3>100%</h3>
+    <p class="main-text">Immersive Experience</p>
+    <span class="sub-text">Real puzzles, real tension</span>
+</div>
+
+</section>
+
+<section class="story-section">
+
+    <div class="story-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="story-left">
+            <h2 class="section-title">
+    Strengthen your bonds,
+    <span>improve communication</span>
+</h2>
+
+            <div class="story-img">
+                <img src="img/demo1-gallery-side.jpg" alt="">
+            </div>
+
+            <p>
+                You and your team will step into a carefully crafted scenario and have a limited time 
+                to solve a series of mind-bending puzzles, riddles, and mysteries to find your way out.
+            </p>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="story-right">
+            <img src="img/haunted-house-room.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta">
+    <h2>Ready to Escape?</h2>
+    <p>Book your experience now and challenge your mind.</p>
+    <a href="pricing.html" class="btn">Book Now</a>
+</section>
+
+<section class="game-mode">
+    <h2>Select Your Mission</h2>
+
+    <div class="mode-grid">
+        <div class="mode-card">
+            <h3>🧠 Mystery Mode</h3>
+            <p>Focus on puzzles and clues</p>
+        </div>
+
+        <div class="mode-card">
+            <h3>⚡ Speed Run</h3>
+            <p>Race against time</p>
+        </div>
+
+        <div class="mode-card">
+            <h3>👥 Team Mode</h3>
+            <p>Collaborate and escape</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <a href="index.html" class="footer-logo">
+                <img src="./img/logo.png" alt="MystIQ Escape logo">
+            </a>
+            <h2>Are you up for<br>the cool<br>challenge?</h2>
+            <div class="social-links">
+                <a href="#facebook" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#instagram" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#twitter" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Demos</h3>
+            <ul>
+                <li><a href="#Demo 1">Demo 1</a></li>
+                <li><a href="#Demo 2">Demo 2</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Rooms</h3>
+            <ul>
+                <li><a href="#room1">room 1</a></li>
+                <li><a href="#room2">room 2</a></li>
+                <li><a href="room 3.html">room 3</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Useful links</h3>
+            <ul>
+                <li><a href="#about" data-menu="about">about us</a></li>
+                <li><a href="pricing.html">pricing</a></li>
+                <li><a href="contact us.html">contact us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p> copyright © 2026 MystIQ Escape. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
